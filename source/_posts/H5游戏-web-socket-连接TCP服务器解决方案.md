@@ -12,6 +12,7 @@ comments: true
 
 https://github.com/andrewchambers/ws-tcp-bridge
 
+非常简单直接! 按照说明中配置即可。每个TCP通信端口需要准备一个空闲的端口来做中转。每个端口需要开启两个中转程序，用于收和发。
 
 # 使用说明
 我们采用在npm中安装的方式，省去配置环境变量的麻烦。此文中服务器环境为Windows。
@@ -24,7 +25,6 @@ https://github.com/andrewchambers/ws-tcp-bridge
 npm
 ```
 如果看到了帮助信息，说明安装成功。
-非常简单直接! 按照说明中配置即可。每个TCP通信端口需要准备一个空闲的端口来做中转。每个端口需要开启两个中转程序，用于收和发。
 ## 2. 安装ws-tcp-bridge
 命令行中键入
 ```

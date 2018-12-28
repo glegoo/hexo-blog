@@ -510,7 +510,7 @@ baidu_analytics: eba657066bacb7bc0148825c27994b83
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname:
   count: true
   lazyload: false
